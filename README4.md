@@ -64,5 +64,42 @@ do {
 console.log(yourName);
 
 
+*****Breaking out of a Loop
 
+There is a special statement called break that has the effect of immediately
+jumping out of the enclosing loop.
 
+for (var current = 20; ; current++) {
+
+  if (current % 7 == 0)
+
+    break;
+}
+
+console.log(current);
+
+// → 21
+
+***(%) operator is an easy way to test whether a number is divisible by another number.
+
+*****Comments
+
+var accountBalance = calculateBalance(account);
+
+// It's a green hollow where a river sings
+
+accountBalance.adjust();
+
+// Madly catching white tatters in the grass.
+
+var report = new Report();
+
+// Where the sun on the proud mountain rings:
+
+addToReport(accountBalance, report);
+
+// It's a little valley, foaming like light in a glass.
+
+A // comment goes only to the end of the line. A section of text between /*and */
+will be ignored, regardless of whether it contains line breaks. This is often useful
+for adding blocks of information about a file or a chunk of program.
